@@ -1,0 +1,43 @@
+Daily Hardware & Environment Setup Report — 06 October 2026
+
+
+
+
+
+
+
+
+
+
+Hardware	Processor	AMD Ryzen AI 7 350
+	Architecture	x86-64 / 64-bit
+	CPU resources	16 logical processors available
+	System memory	32 GB DDR5
+	Integrated GPU	AMD Radeon 860M
+	NPU	AMD XDNA 2 / Compute Accelerator Device
+	NPU reported memory	~15 GB shared/available memory reported by system
+Environment	Operating system	Windows 11 x64
+	WSL	WSL 2 installed and operational
+	Docker	Docker Desktop installed and operational
+	Container runtime	Docker running through WSL 2
+	LLM runtime	Ollama running successfully as Docker container
+Initial LLM Test	Model	Qwen3 4B
+	Model deployment	Downloaded and executed locally through Ollama
+	Inference	Successful
+	Ollama processor allocation	100% CPU
+	Docker CPU observation	~800% during inference
+	Windows CPU observation	~55% during inference
+	Windows memory observation	~48% system memory usage
+	Available logical CPUs	16
+Initial Behavior	Model response	Model successfully accepted prompts and generated responses
+	Stability	No immediate stability issues observed during initial test
+	CPU behavior	Significant CPU utilization during generation; expected for current CPU-only configuration
+	GPU acceleration	Not used in initial configuration
+	NPU acceleration	Not used in initial configuration
+Status	Local LLM environment	✅ Operational
+	Benchmark environment	⚠️ Initial setup only; formal benchmarking not started
+	Optimization	Not performed; planned for later project phases
+
+
+Short conclusion
+On 06 October 2026, the project hardware was received and the initial local LLM environment was successfully configured. WSL 2, Docker Desktop, and an Ollama container were installed and verified. A Qwen3 4B model was successfully downloaded and executed locally. During the initial test, Ollama reported 100% CPU processing, with approximately 55% total CPU utilization observed in Windows and approximately 800% CPU usage reported for the Docker container across the available logical processors. GPU and NPU acceleration were not configured or evaluated at this stage. These results serve only as an initial environment validation; formal benchmarking and optimization will be conducted in later project phases.

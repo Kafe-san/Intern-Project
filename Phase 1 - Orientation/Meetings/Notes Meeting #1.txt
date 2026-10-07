@@ -1,0 +1,65 @@
+Which specific Nahayat use cases should I focus on when testing local LLMs?
+The proposal mentions chat, RAG, classification, automation, and agentic tool use. Should I cover several of these or focus on a representative subset?
+
+Identify which model is good for what task so basically all of them.
+TBD later on if can be narrowed based on hardware stability.
+
+
+Should I build my own test/benchmark environment, or should I test against an existing Nahayat system or use case?
+
+At the hardware receival I will get the benchmark env where I can freely test around.
+
+
+What does current LLM setup look like?
+Which providers/models are currently being used, for what kinds of tasks, and how do they roughly fit into the existing architecture?
+Benchmarking and current setup will be discussed in details next Tuesday at the location based on the hardware. The main idea is to compare models between eachother around all use cases.
+
+What hardware will I actually have access to for the project?
+In particular: GPU model and VRAM, CPU, RAM, storage, servers/workstations, and any other relevant infrastructure.
+
+*
+TBD Both of them. 
+Mini pc or smth similar nocsem or bulky mac book that can run 80B llm model to test around. 
+16/32GB ram 
+They are willing to invest real money later based on my research if I can find something suitable if not they will stay on APIs
+
+
+
+How is that hardware currently set up, and what will I be able to install or configure myself?
+For example: operating system, Docker, CUDA, model runtimes, inference servers, downloaded models, etc.
+
+The hardware meant to get is fully accessible to me .. but more details we will discuss at the receive moment.
+
+
+Who should I talk to when I need information about specific parts of the project?
+For example, infrastructure, existing AI systems, cloud usage/costs, security/privacy, or company data.
+not asked anymore.. not needed for now. later one MAYBE*
+
+Are there any particular models, cloud providers, frameworks, or approaches you would prefer me to use as a baseline or starting point?
+Especially anything Nahayat already uses or that you think would make for a valuable comparison.
+
+Open source preferable.. and do a full research about all the models that can fit or are around the hardware given.
+Huggin face preferable..
+
+
+What are the most important criteria for Nahayat when deciding whether a local LLM solution is viable or “good enough”?
+TBDd
+
+For example: cost, privacy, response quality, latency, throughput, reliability, hardware requirements, maintainability, RAG performance, or tool-calling capabilities.
+TBD
+
+Next Tuesday meeting at 9.30-10am in the office. First official visit.
+To be discussed about meeting with the teacher as well in the future weeks... 
+To discuss about contract and hardware..
+
+
+
+
+
+What data can I realistically use for testing and benchmarking?
+Can I use internal documentation or other company data? Is there already test data available, or should I create/sanitize my own dataset? Are there privacy/security restrictions I should know about?
+TBD
+
+For a baseline starting point, what would you consider in scope and out of scope, and are there any directions you would particularly like me to explore?
+For example: benchmarking, RAG, agentic tool use, hardware evaluation, prototyping, fine-tuning, production deployment, etc.
+TBD
