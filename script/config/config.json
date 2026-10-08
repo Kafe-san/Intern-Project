@@ -2,13 +2,13 @@
     "benchmark": {
         "name": "local_llm_benchmark",
         "use_case": "chat",
-        "test_id": "CHAT-001"
+        "test_id": "CHAT-002"
     },
 
     "model": {
-        "name": "llama3.2:1b",
-        "family": "Llama",
-        "parameters_b": 1.0,
+        "name": "qwen3:4b",
+        "family": "Qwen",
+        "parameters_b": 4,
         "quantization": "unknown",
         "runtime": "ollama"
     },
